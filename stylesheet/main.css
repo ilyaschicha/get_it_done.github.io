@@ -9,3 +9,8 @@ body {
 .bold {
   font-weight: 700;
 }
+
+ul {
+  padding: 0;
+}
+
