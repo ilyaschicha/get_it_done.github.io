@@ -193,3 +193,9 @@ body {
   box-shadow: 0 10px 20px rgba(var(--text-color), 0.19), 0 6px 6px rgba(var(--text-color), 0.23);
 }
 
+#headers header div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
