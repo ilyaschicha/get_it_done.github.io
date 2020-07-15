@@ -38,3 +38,6 @@ ul { padding: 0;}
     flex-grow: 1;
     position: relative;
   }
+  #main::after {
+    content: "";
+  }
