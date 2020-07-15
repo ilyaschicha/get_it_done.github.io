@@ -170,3 +170,11 @@ body {
   color: rgba(var(--text-color), 1);
 }
 
+#headers header {
+  box-shadow: 0 3px 6px rgba(var(--text-color), 0.16), 0 3px 6px rgba(var(--text-color), 0.23);
+  background-color: rgba(var(--bg-color), 1);
+  margin-left: 3rem;
+  padding: 5.6rem 3.2rem;
+  justify-content: space-around;
+  transition: all .4s;
+}
