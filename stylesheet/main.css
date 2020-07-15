@@ -133,3 +133,9 @@ body {
   background-image: linear-gradient(rgba(var(--gradient-1), 1), rgba(var(--gradient-2), 1));
   clip-path: polygon(0 0, 100% 0, 100% 83%, 22% 100%);
 }
+
+@media (max-width: 1600px) {
+  #main::after {
+    width: 30%;
+  }
+}
