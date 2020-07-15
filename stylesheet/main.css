@@ -98,3 +98,9 @@ ul {
     font-size: 32%;
   }
 }
+
+body {
+  font-family: "Mantserrat", sans-serif;
+  background-color: rgba(var(--bg-color), 1);
+}
+
