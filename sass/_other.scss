@@ -47,4 +47,5 @@ ul { padding: 0;}
     height: 44vh;
     width: 20%;
     background-image: linear-gradient(rgba(var(--gradient-1), 1), rgba(var(--gradient-2), 1));
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 22% 100%);
   }
