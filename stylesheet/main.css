@@ -116,3 +116,7 @@ body {
     flex-direction: column;
   }
 }
+
+#main {
+  position: relative;
+}
