@@ -124,4 +124,7 @@ body {
 
 #main::after {
   content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
 }
