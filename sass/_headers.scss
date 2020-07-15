@@ -29,5 +29,11 @@
       align-items: center;
     }
   
+    header:last-of-type {
+      flex-grow: 1;
+      display: flex;
+      margin-right: 6rem;
+    }
+  
   }
   
