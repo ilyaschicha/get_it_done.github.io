@@ -102,5 +102,6 @@ ul {
 body {
   font-family: "Mantserrat", sans-serif;
   background-color: rgba(var(--bg-color), 1);
+  cursor: default;
 }
 
