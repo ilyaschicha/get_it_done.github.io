@@ -49,4 +49,9 @@ ul { padding: 0;}
     background-image: linear-gradient(rgba(var(--gradient-1), 1), rgba(var(--gradient-2), 1));
     clip-path: polygon(0 0, 100% 0, 100% 83%, 22% 100%);
     @media (max-width: 1600px) {width: 30%;}
+    @media (max-width: 1400px) {
+      height: 30vh;
+      width: 40%;
+      clip-path: polygon(0 0, 100% 0, 100% 83%, 22% 100%);
+    }
   }

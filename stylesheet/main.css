@@ -139,3 +139,11 @@ body {
     width: 30%;
   }
 }
+
+@media (max-width: 1400px) {
+  #main::after {
+    height: 30vh;
+    width: 40%;
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 22% 100%);
+  }
+}
