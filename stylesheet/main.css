@@ -232,3 +232,14 @@ body {
   display: block;
 }
 
+#input-section input {
+  width: max-content;
+  font-size: 3rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  opacity: .36;
+  outline: none;
+  border: none;
+  color: rgba(var(--text-color), 1);
+}
+
