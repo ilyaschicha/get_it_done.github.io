@@ -5,5 +5,10 @@
   
   input#menu:checked {
     ~ #menu-controller { transform: translate(-10vw);}
+    ~ #menu-dimmed-bg {
+      visibility: visible;
+      transform: translate(0);
+      transition: transform 1s 0;
+    }
   }
   
