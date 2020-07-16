@@ -317,3 +317,8 @@ body {
   color: rgba(var(--text-color), 1);
 }
 
+@media (max-width: 1500px) {
+  #task-list {
+    font-size: 15px;
+  }
+}
