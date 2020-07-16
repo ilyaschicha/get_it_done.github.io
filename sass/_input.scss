@@ -24,5 +24,7 @@
     input:focus + label {
       visibility: visible;
     }
+    ::placeholder { color: inherit;}
+  
   }
   

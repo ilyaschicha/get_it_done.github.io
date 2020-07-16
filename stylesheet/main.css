@@ -254,3 +254,7 @@ body {
   visibility: visible;
 }
 
+#input-section ::placeholder {
+  color: inherit;
+}
+
