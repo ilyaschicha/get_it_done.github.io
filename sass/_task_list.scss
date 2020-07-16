@@ -14,3 +14,8 @@
     }
 }
 
+.exit {
+    animation-name: task-exit;
+    animation-duration: .35s;
+    animation-fill-mode: forwards;
+}
