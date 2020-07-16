@@ -10,5 +10,10 @@
       transform: translate(0);
       transition: transform 1s 0;
     }
+    ~ #menu-content {
+      opacity: 1;
+      transform: translate(0);
+      transition: transform .5s .4s;
+    }
   }
   
