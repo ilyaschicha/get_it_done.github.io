@@ -276,6 +276,13 @@ input#menu:checked ~ #menu-content {
   transition: all 0.2s;
 }
 
+#menu-content #theme h5 {
+  margin-top: 7rem;
+  font-size: var(--menu-font-size);
+  text-transform: uppercase;
+  line-height: 10%;
+}
+
 #headers {
   margin-top: 3rem;
   display: flex;
