@@ -329,3 +329,8 @@ body {
   }
 }
 
+@media (max-width: 1300px) {
+  #task-list {
+    font-size: 14px;
+  }
+}
