@@ -309,6 +309,10 @@ input#menu:checked ~ #menu-content {
   padding: 5px;
 }
 
+#menu-content #completed-tasks span {
+  margin-left: 22px;
+}
+
 #headers {
   margin-top: 3rem;
   display: flex;
