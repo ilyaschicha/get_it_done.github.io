@@ -105,5 +105,16 @@
       }
     }
   
+    #completed-tasks {
+      transition:  all $color-transition-time;
+  
+      h5{
+        margin: 7rem 0 1.5rem;
+        font-size: var(--menu-font-size);
+        text-transform: uppercase;
+      }
+  
   }
+  
+    }
   

@@ -290,6 +290,17 @@ input#menu:checked ~ #menu-content {
 #menu-content #theme h5 span:hover {
   opacity: .6;
 }
+
+#menu-content #completed-tasks {
+  transition: all 0.2s;
+}
+
+#menu-content #completed-tasks h5 {
+  margin: 7rem 0 1.5rem;
+  font-size: var(--menu-font-size);
+  text-transform: uppercase;
+}
+
 #headers {
   margin-top: 3rem;
   display: flex;
