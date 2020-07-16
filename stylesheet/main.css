@@ -204,3 +204,10 @@ body {
   display: flex;
   margin-right: 6rem;
 }
+
+@media (max-width: 1100px) {
+  #headers {
+    margin-top: 6rem;
+    flex-direction: column;
+  }
+}

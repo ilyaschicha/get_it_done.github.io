@@ -35,5 +35,10 @@
       margin-right: 6rem;
     }
   
+    @media (max-width: 1100px) {
+      margin-top: 6rem;
+      flex-direction: column;
+  
+    }
   }
   
