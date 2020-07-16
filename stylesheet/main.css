@@ -214,4 +214,8 @@ body {
     text-align: center;
     font-size: 3.5rem;
   }
+  #headers header {
+    margin: 0 4rem !important;
+    padding: 8rem 3.2rem;
+  }
 }
