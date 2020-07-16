@@ -72,6 +72,12 @@
       display: flex;
       justify-content: space-between;
   
+      h4 {
+        text-transform: uppercase;
+        margin: 0;
+        font-size: var(--menu-font-size);
+      }
+  
     }
   
   }

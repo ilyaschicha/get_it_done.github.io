@@ -257,6 +257,12 @@ input#menu:checked ~ #menu-content {
   justify-content: space-between;
 }
 
+#menu-content header h4 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: var(--menu-font-size);
+}
+
 #headers {
   margin-top: 3rem;
   display: flex;
