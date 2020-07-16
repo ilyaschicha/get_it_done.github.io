@@ -357,3 +357,38 @@ body {
     margin-bottom: 10rem;
   }
 }
+
+#task-list li:first-child:nth-last-child(n+3),
+#task-list li:first-child:nth-last-child(n+3) ~ li {
+  font-size: 4.5rem;
+}
+
+#task-list li:first-child:nth-last-child(n+5),
+#task-list li:first-child:nth-last-child(n+5) ~ li {
+  font-size: 3.2rem;
+}
+
+#task-list li:first-child:nth-last-child(n+9),
+#task-list li:first-child:nth-last-child(n+9) ~ li {
+  font-size: 2.8rem;
+}
+
+#task-list li:first-child:nth-last-child(n+12),
+#task-list li:first-child:nth-last-child(n+12) ~ li {
+  font-size: 2.4rem;
+}
+
+#task-list li:first-child:nth-last-child(n+20),
+#task-list li:first-child:nth-last-child(n+20) ~ li {
+  font-size: 2.1rem;
+}
+
+#task-list li:first-child:nth-last-child(n+25),
+#task-list li:first-child:nth-last-child(n+25) ~ li {
+  font-size: 2rem;
+}
+
+#task-list li:first-child:nth-last-child(n+30),
+#task-list li:first-child:nth-last-child(n+30) ~ li {
+  font-size: 1.75rem;
+}
