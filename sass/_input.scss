@@ -21,5 +21,8 @@
       opacity: .5;
     }
   
+    input:focus + label {
+      visibility: visible;
+    }
   }
   
