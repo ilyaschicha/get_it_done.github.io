@@ -326,6 +326,12 @@ input#menu:checked ~ #menu-content {
   color: rgba(var(--bg-color), 1);
 }
 
+@media (max-width: 1500px) {
+  #menu-content {
+    width: 70%;
+  }
+}
+
 #headers {
   margin-top: 3rem;
   display: flex;
