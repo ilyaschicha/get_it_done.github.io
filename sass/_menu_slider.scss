@@ -3,3 +3,7 @@
     color: rgba(var(--text-color), 1);
   }
   
+  input#menu:checked {
+    ~ #menu-controller { transform: translate(-10vw);}
+  }
+  
