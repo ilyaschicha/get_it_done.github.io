@@ -67,5 +67,12 @@
     background-color: rgba(var(--bg-color), 1);
     width: 54%;
   
+    header {
+      transition: all $color-transition-time;
+      display: flex;
+      justify-content: space-between;
+  
+    }
+  
   }
   
