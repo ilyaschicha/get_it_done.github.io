@@ -26,5 +26,8 @@
     }
     ::placeholder { color: inherit;}
   
+    @media (max-width: 1100px) {
+      margin: 3rem 0 0;
+   }
   }
   
