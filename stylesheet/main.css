@@ -296,3 +296,16 @@ body {
   animation-fill-mode: forwards;
 }
 
+#task-list {
+  height: 40vh;
+  margin-left: 6rem;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  user-select: none;
+  font-size: 16px;
+}
+
