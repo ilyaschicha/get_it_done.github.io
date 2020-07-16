@@ -173,6 +173,10 @@ body {
   color: rgba(var(--text-color), 1);
 }
 
+#menu-section input {
+  display: none;
+}
+
 #headers {
   margin-top: 3rem;
   display: flex;
