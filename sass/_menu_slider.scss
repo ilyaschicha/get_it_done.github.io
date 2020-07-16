@@ -98,9 +98,12 @@
         line-height: 10%;
         span{
           margin-left: 40px;
+          &:hover {
+            opacity: .6;
+          }
         }
       }
-  }
+    }
   
   }
   
