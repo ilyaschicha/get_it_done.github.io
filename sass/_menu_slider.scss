@@ -114,7 +114,13 @@
         text-transform: uppercase;
       }
   
-  }
+      li{
+        font-size: var(--menu-font-size);
+        list-style: none;
+        margin: 12px 0;
+        width: max-content;
+        padding: 5px;
+      }
   
     }
   
