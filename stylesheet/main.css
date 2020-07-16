@@ -243,3 +243,10 @@ body {
   color: rgba(var(--text-color), 1);
 }
 
+#input-section label {
+  visibility: hidden;
+  color: rgba(var(--text-color), 1);
+  font-size: 1rem;
+  opacity: .5;
+}
+
