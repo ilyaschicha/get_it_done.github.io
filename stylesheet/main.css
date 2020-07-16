@@ -322,3 +322,10 @@ body {
     font-size: 15px;
   }
 }
+
+@media (max-width: 1400px) {
+  #task-list {
+    height: 54vh;
+  }
+}
+
