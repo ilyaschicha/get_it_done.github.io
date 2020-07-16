@@ -128,3 +128,11 @@
   
     }
   
+    #reset{
+      transition: all $color-transition-time;
+      font-size: var(--menu-font-size);
+      text-transform: uppercase;
+      padding: 5px;
+      width: max-content;
+    }
+  

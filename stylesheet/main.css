@@ -313,6 +313,14 @@ input#menu:checked ~ #menu-content {
   margin-left: 22px;
 }
 
+#menu-content #reset {
+  transition: all 0.2s;
+  font-size: var(--menu-font-size);
+  text-transform: uppercase;
+  padding: 5px;
+  width: max-content;
+}
+
 #headers {
   margin-top: 3rem;
   display: flex;
