@@ -134,5 +134,9 @@
       text-transform: uppercase;
       padding: 5px;
       width: max-content;
+      &:hover{
+        background-color: rgba(var(--text-color), 1);
+        color: rgba(var(--bg-color), 1);
+      }
     }
   

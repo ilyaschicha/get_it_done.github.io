@@ -321,6 +321,11 @@ input#menu:checked ~ #menu-content {
   width: max-content;
 }
 
+#menu-content #reset:hover {
+  background-color: rgba(var(--text-color), 1);
+  color: rgba(var(--bg-color), 1);
+}
+
 #headers {
   margin-top: 3rem;
   display: flex;
