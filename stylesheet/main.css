@@ -369,6 +369,10 @@ input#menu:checked ~ #menu-content {
   #menu-content #theme h5 {
     text-align: center;
   }
+  #menu-content #completed-tasks h5 {
+    margin: 10rem 0 4rem;
+    text-align: center;
+  }
 }
 
 #headers {
