@@ -201,3 +201,10 @@
     input#menu:checked { ~ #menu-controller { transform: translate(0, -10vh);} }
   }
   
+  @media (max-width: 500px) {
+    #menu-controller {
+      height: 75px;
+      label { height: 40px; }
+    }
+  }
+  
