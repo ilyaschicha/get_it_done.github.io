@@ -347,6 +347,12 @@ input#menu:checked ~ #menu-content {
   #menu-dimmed-bg {
     transform: translate(0, -120vh);
   }
+  #menu-content {
+    --menu-font-size: 3.2rem;
+    transform: translate(0, -100vh);
+    width: 100%;
+    padding: 0;
+  }
 }
 
 #headers {
