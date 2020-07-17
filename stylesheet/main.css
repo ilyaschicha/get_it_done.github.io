@@ -341,6 +341,9 @@ input#menu:checked ~ #menu-content {
     height: 100px;
     padding-top: 0;
   }
+  #menu-controller label {
+    width: 100px;
+  }
 }
 
 #headers {
