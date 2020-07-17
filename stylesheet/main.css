@@ -373,6 +373,10 @@ input#menu:checked ~ #menu-content {
     margin: 10rem 0 4rem;
     text-align: center;
   }
+  #menu-content #completed-tasks li {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 #headers {
