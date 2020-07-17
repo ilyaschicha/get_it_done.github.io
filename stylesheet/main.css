@@ -126,6 +126,7 @@ body {
   background-color: rgba(var(--bg-color), 1);
   cursor: default;
   min-height: 100vh;
+  display: none;
 }
 
 @media (max-width: 1100px) {
