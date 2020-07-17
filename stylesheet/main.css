@@ -353,6 +353,11 @@ input#menu:checked ~ #menu-content {
     width: 100%;
     padding: 0;
   }
+  #menu-content header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 
 #headers {
