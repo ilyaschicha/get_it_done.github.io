@@ -358,6 +358,11 @@ input#menu:checked ~ #menu-content {
     flex-direction: column-reverse;
     align-items: center;
   }
+  #menu-content header label {
+    height: 40px;
+    margin: 40px 0;
+    background-position: center;
+  }
 }
 
 #headers {

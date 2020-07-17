@@ -169,6 +169,11 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        label {
+          height: 40px;
+          margin: 40px 0;
+          background-position: center;
+        }
       }
   
   }
