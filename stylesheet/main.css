@@ -366,6 +366,9 @@ input#menu:checked ~ #menu-content {
   #menu-content #theme {
     margin: 10rem;
   }
+  #menu-content #theme h5 {
+    text-align: center;
+  }
 }
 
 #headers {
