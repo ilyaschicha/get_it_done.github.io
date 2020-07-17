@@ -344,6 +344,9 @@ input#menu:checked ~ #menu-content {
   #menu-controller label {
     width: 100px;
   }
+  #menu-dimmed-bg {
+    transform: translate(0, -120vh);
+  }
 }
 
 #headers {
