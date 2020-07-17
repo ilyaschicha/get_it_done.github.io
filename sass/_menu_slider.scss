@@ -198,5 +198,6 @@
       }
     }
   
+    input#menu:checked { ~ #menu-controller { transform: translate(0, -10vh);} }
   }
   

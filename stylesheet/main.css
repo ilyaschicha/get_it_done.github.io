@@ -380,6 +380,9 @@ input#menu:checked ~ #menu-content {
   #menu-content #reset {
     margin: 12rem auto 100px;
   }
+  input#menu:checked ~ #menu-controller {
+    transform: translate(0, -10vh);
+  }
 }
 
 #headers {
