@@ -377,6 +377,9 @@ input#menu:checked ~ #menu-content {
     margin-left: auto;
     margin-right: auto;
   }
+  #menu-content #reset {
+    margin: 12rem auto 100px;
+  }
 }
 
 #headers {
