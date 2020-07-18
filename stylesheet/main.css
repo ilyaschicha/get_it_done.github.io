@@ -662,3 +662,9 @@ input#menu:checked ~ #menu-content {
   outline: none;
   transform: translateY(-50%);
 }
+
+#modal h2 {
+  margin-bottom: 30px;
+  line-height: 170%;
+}
+
