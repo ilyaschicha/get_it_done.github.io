@@ -1,0 +1,32 @@
+@keyframes flipInX {
+    from {
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg) translateY(-50%);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+    
+    40% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg) translateY(-50%);
+        animation-timing-function: ease-in;
+    }
+    
+    60% {
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg) translateY(-50%);
+        opacity: 1;
+    }
+    
+    80% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg) translateY(-50%);
+    }
+    
+    to {
+        transform: perspective(400px) translateY(-50%);
+    }
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
