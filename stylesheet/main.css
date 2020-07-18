@@ -714,5 +714,8 @@ input#menu:checked ~ #menu-content {
     padding-top: 60vh;
     margin: 0;
   }
+  #modal button {
+    font-size: 3.5rem;
+  }
 }
 
