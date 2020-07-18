@@ -65,6 +65,9 @@
     &[open] {
         animation: flipInX ease .5s .2s;
         animation-fill-mode: both;
+        @media (max-width: 1100px) {
+            animation: fadeIn ease .25s;
+        }
     }
     
 }
