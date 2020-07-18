@@ -650,3 +650,15 @@ input#menu:checked ~ #menu-content {
   }
 }
 
+#modal {
+  border: none;
+  font-size: 1rem;
+  background-image: linear-gradient(to left, rgba(var(--gradient-1), 1), rgba(var(--gradient-2), 1));
+  color: white;
+  padding: 2.8rem 10rem;
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  outline: none;
+  transform: translateY(-50%);
+}
