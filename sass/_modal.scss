@@ -57,6 +57,9 @@
         transition: all .1s;
         background-color: transparent;
         color: white;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }
 
