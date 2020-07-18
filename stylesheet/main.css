@@ -719,3 +719,12 @@ input#menu:checked ~ #menu-content {
   }
 }
 
+@media (max-width: 500px) {
+  #modal {
+    letter-spacing: -1px;
+    font-size: 2.45rem;
+  }
+  #modal button {
+    font-size: 3rem;
+  }
+}
