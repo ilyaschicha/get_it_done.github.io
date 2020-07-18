@@ -684,3 +684,8 @@ input#menu:checked ~ #menu-content {
   transform: scale(1.1);
 }
 
+#modal[open] {
+  animation: flipInX ease .5s .2s;
+  animation-fill-mode: both;
+}
+
